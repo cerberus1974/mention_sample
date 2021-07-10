@@ -1,0 +1,30 @@
+<html lang="ja-jp">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>mention</title>
+        <style>
+            #user_list {
+                margin: 1rem 0;
+            }
+
+            #text_area {
+                background-color: #fff;
+                border: #000 solid 1px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <select id="user_list" name="userList" title="userList">
+            <option value="100">山田太郎</option>
+            <option value="101">鈴木花子</option>
+            <option value="102">田中次郎</option>
+            <option value="103">高橋三郎</option>
+        </select>
+        
+        <div id="text_area" contenteditable="true"></div>
+
+        <script src="./mention.js"></script>
+    </body>
+</html>
